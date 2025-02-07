@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piget - Fun Learning Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Piget</h1>
+        <p>Learn, Play, and Win!</p>
+    </header>
+
+    <main>
+        <section class="game-lobby">
+            <h2>Join a Game</h2>
+            <button id="start-game-btn">Start a New Game</button>
+            <button id="join-game-btn">Join an Existing Game</button>
+        </section>
+
+        <section class="game-area" id="game-area" style="display:none;">
+            <h2 id="game-title">Game in Progress...</h2>
+            <div id="quiz-area">
+                <!-- Quiz questions will be displayed here -->
+            </div>
+            <button id="next-question-btn">Next Question</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by Piget</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
